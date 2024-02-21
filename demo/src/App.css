@@ -1,0 +1,233 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.navcontainer{
+  width: 100%;
+  display: flex;
+  align-items: center;
+
+}
+.navbar{
+  width: 80%;
+  border-bottom: 1px solid #F8C4DAed;
+  margin: auto;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.App-link {
+  color: #61dafb;
+}
+.logo{
+  
+  width: 229px;
+  height: 100px;
+  top: 40px;
+  left: 121px;
+}
+.menus{
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.ball{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color:#EA0E68; 
+  position: absolute;
+}
+.menus>p{
+   font-size: 13px;
+   font-weight: 600;
+}
+.searchbox{
+  width: 15%;
+  border: 1px solid gray;
+  border-radius: 50px;
+  padding: 10px 30px 10px;
+align-items: center;
+display: flex;
+}
+.searchbox>input{
+outline: none;
+border: none;
+color: gray;
+
+}
+.account{
+  background-color: #0EEA90;
+  padding: 15px 30px 15px;
+border-radius: 15px;  border: none;
+  outline: none;
+color: white;
+}
+.svg{
+  width: 25px;
+  opacity: 0.5;
+}
+.cartsection{
+  margin-left: 50px;
+  width: 20%;
+  display: flex;
+  ;justify-content: space-between;
+  align-items: center;
+}
+
+
+
+
+
+
+.homesection{
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns:55% 45%;
+  padding-top: 30px;
+}
+.textArea{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+}
+.textArea>h2{
+
+  font-size: 40px;
+  line-height: 48px;
+
+}
+.textArea>h1{
+  width: 100%;
+  margin-top: 0px;
+  font-size: 65px;
+  line-height: 84px;
+
+text-align: left;
+}
+.textArea>p{
+  text-align: justify;
+  width: 70%;
+}
+
+.photosection {
+  width: 578px;
+  height: 578px;
+  border: 1px solid #EA0E68;
+  margin: auto;
+  border-radius: 50%;
+  position: relative; /* Needed for absolute positioning within */
+}
+
+.roundedsection {
+  background-color: #EA0E68;
+  width: 330px;
+  height: 330px;
+  margin: auto;
+  padding: 50px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.centered-image {
+  width: 100%; /* Ensure the image takes the full width of the container */
+  height: auto; /* Maintain the aspect ratio of the image */
+  border-radius: 50%;
+}
+.explore{
+  padding: 20px 35px 20px;
+  border: none;
+  border-radius: 50px;
+  color: white;
+  font-weight: 700;
+  font-size: 24px;
+  background: rgb(234,14,104);
+background: linear-gradient(90deg, rgba(234,14,104,1) 0%, rgba(234,14,104,1) 35%, rgba(243,18,32,1) 100%);
+
+
+
+}
+.pink{
+ color: #EA0E68;
+}
+.green{
+ color: #00ec8a;
+}
+.gray{
+ color: #787878;
+}
+.pinkK{
+  color: #EA0E68;
+  border-color: #EA0E68;
+ }
+ .greenN{
+  color: #00ec8a;
+  border-color: #00ec8a;
+ }
+ .grayY{
+  color: #787878;
+  border-color
+  :#787878
+ }
+.svgbtn{
+ border-radius: 50%;
+  size: 35px;
+  font-weight: 800;
+  background-color: #02ac65;
+}
+.button{
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 10px;
+  margin-right: 50px;
+  background-color: #00ec8a;
+}
+.pinkk{
+  background-color: #EA0E68;
+
+}
+.greenn{
+  background-color: #00ec8a;
+}
+.grayy{
+  background-color: #787878;;
+  border: #787878;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

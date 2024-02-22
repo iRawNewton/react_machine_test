@@ -3,6 +3,7 @@
     "aos": "^3.0.0-beta.6",
     "heroicons": "^2.1.1",
     "react-animations": "^1.0.0",
+    "react-spring": "^9.7.3",
     "styled-components": "^6.1.8"
   }
 }
